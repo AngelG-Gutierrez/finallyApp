@@ -3,7 +3,6 @@ import { Button, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import * as Location from 'expo-location';
 import MapView, { Marker } from 'react-native-maps';
 import { Ionicons } from '@expo/vector-icons';
-import { useRouter } from "expo-router";
 import { DataSource } from "./dataSource/datasource";
 import { Timestamp } from "firebase/firestore";
 
@@ -12,7 +11,6 @@ export function LocationView() {
     const [permission, requestPermission] = Location.useForegroundPermissions();
     const [location, setLocation] = useState<Location.LocationObject | null>(null);
     const mapRef = useRef(null);
-    const router = useRouter();
 
     useEffect(() => {
         async function getCurrentLocation() {
