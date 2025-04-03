@@ -40,22 +40,11 @@ export function LoginView() {
         <View>
             <StatusBar backgroundColor="white" barStyle="dark-content"/>
             <LinearGradient 
-                colors={["#82c1f3", "#59abed", "#0057b7"]}
+                colors={["f42626", "#d93636", "f56464"]}
                 start={{ x: 0, y: 0 }}
                 end={{ x: 1, y: 1 }}
                 style={styles.body}
             >
-                <View style={styles.line}>
-                    <Svg height="20" width="100%">
-                        <Path 
-                            d="M 0 10 Q 50 0, 100 10 T 200 10 T 300 10 T 400 10 T 500 10" 
-                            stroke="#1267ab" 
-                            strokeWidth="10" 
-                            fill="transparent"
-                        />
-                    </Svg>
-                </View>
-
                 <View style={styles.box1}>
                     <Text style={styles.title}>Inicio de Sesión</Text>
                     <FontAwesome5 name="users" size={32} color="black" />
