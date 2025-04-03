@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
     },
 
     flatLIst:{
-        height:610,
+        height:660,
         marginTop:20
     },
 

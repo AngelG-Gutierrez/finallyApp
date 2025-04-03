@@ -87,13 +87,12 @@ export function CharactersView(){
 const styles = StyleSheet.create({
     scrollView:{
         width:"100%",
-        //marginTop:65,
         padding:15,
         backgroundColor:"rgb(45, 140, 78)",
     },
 
     flatLIst:{
-        height:600,
+        height:660,
         marginTop:20
     },
 
