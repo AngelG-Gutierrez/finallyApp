@@ -90,7 +90,6 @@ export function LocationView() {
             >
                 {location ? (
                     <Marker coordinate={location.coords}>
-                        <Ionicons name="location-sharp" size={50} color="red" />
                     </Marker>
                 ) : null}
             </MapView>
