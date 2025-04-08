@@ -11,4 +11,4 @@ export const supabase_user = createClient(supabaseUrl, supabaseAnonKey, {
     persistSession: true,
     detectSessionInUrl: false,
   },
-})
+}) 
