@@ -37,5 +37,5 @@ yarn-error.*
 
 app-example
 lib/firebase.ts
-lib/supabase.ts
 lib/supabase_note.ts
+lib/supabase.ts

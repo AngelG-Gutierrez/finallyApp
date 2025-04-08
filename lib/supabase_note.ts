@@ -12,3 +12,5 @@ export const supabase_notes = createClient(supabaseUrl, supabaseAnonKey, {
     detectSessionInUrl: false,
   },
 }) 
+
+//
